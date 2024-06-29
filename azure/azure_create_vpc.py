@@ -1,5 +1,4 @@
 from azure.mgmt.network import NetworkManagementClient
-# from azure.mgmt.network.v2021_03_01.models import VirtualNetwork, AddressSpace, Subnet
 from azure.mgmt.network.models import VirtualNetwork, AddressSpace, Subnet
 
 from azure_auth import credentials, subscription_id
