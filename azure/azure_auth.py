@@ -13,6 +13,7 @@ client_secret = os.environ['AZURE_CLIENT_SECRET']
 vault_url = os.environ['AZURE_VAULT_URL']
 secret_name = os.environ['PCIBER_SECRET_NAME']
 subscription_id = os.environ['AZURE_SUBSCRIPTION_ID']
+location = os.environ['AZURE_LOCATION']
 
 # Crear objeto credenciales
 credentials = ClientSecretCredential(

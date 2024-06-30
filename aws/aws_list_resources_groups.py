@@ -5,8 +5,9 @@ def list_resource_groups():
     client = boto3.client('resource-groups')
 
     # Obtiene la lista de grupos de recursos
-    # response = client.list_groups()
-    response = client.list_group_resources()
+    response = client.list_groups()
+    print(response)
+    # response = client.list_group_resources()
 
     # Itera sobre los grupos de recursos y muestra sus características
     for group in response['Groups']:
