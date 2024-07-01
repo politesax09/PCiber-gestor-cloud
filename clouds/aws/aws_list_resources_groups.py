@@ -1,5 +1,8 @@
 import boto3
 
+
+# FIXME: Intenta listar los grupos de recursos pero la lista está vacía
+
 def list_resource_groups():
     # Crea una instancia del cliente de AWS Resource Groups
     client = boto3.client('resource-groups')
